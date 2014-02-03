@@ -1,0 +1,2538 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_6-00sc-introduction-to-computer-science-and-programming-spring-2011"
+          version="2014-1-1T5:23:30"
+          cwsp:packageType="Course"
+          xml:base="6-00sc-spring-2011/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Introduction to Computer Science and Programming</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">6.00SC</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Spring 2011</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Guttag, John</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2014-1-1</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Computer Science</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_6-00sc-introduction-to-computer-science-and-programming-spring-2011">
+        <organization identifier="ocw_6-00sc-introduction-to-computer-science-and-programming-spring-2011">
+            <title>Introduction to Computer Science and Programming</title>
+            <item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2014-1-1">
+				<title>Introduction to Computer Science and Programming</title>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.6-00scf11.jpg"
+          identifierref="r_contents.6-00scf11.jpg">
+				<title>6-00scf11.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.6-00scf11-th.jpg"
+          identifierref="r_contents.6-00scf11-th.jpg">
+				<title>6-00scf11-th.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.Syllabus"
+                  identifierref="r_contents.Syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2014-1-1">
+				<title>Syllabus</title>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.Syllabus.mp_logo.gif"
+          identifierref="r_contents.Syllabus.mp_logo.gif">
+				<title>MIT Press button</title>
+				</item>
+			</item>
+            <item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.software"
+                  identifierref="r_contents.software.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2014-1-1">
+				<title>Software</title>
+			</item>
+            <item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.references"
+                  identifierref="r_contents.references.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2014-1-1">
+				<title>References</title>
+			</item>
+            <item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1"
+                  identifierref="r_contents.unit-1.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2014-1-1">
+				<title>Unit 1</title>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.lecture-1-introduction-to-6.00"
+          identifierref="r_contents.unit-1.lecture-1-introduction-to-6.00.index.htm">
+				<title>Introduction to 6.00</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-1-introduction-to-6.00.ses-01.jpg"
+          identifierref="r_contents.unit-1.lecture-1-introduction-to-6.00.ses-01.jpg">
+				<title>ses-01.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-1-introduction-to-6.00.MIT6_00SCS11_lec01_slides.pdf"
+          identifierref="r_contents.unit-1.lecture-1-introduction-to-6.00.MIT6_00SCS11_lec01_slides.pdf">
+				<title>Lecture 1 slides: Introduction to 6.00</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.lecture-2-core-elements-of-a-program"
+          identifierref="r_contents.unit-1.lecture-2-core-elements-of-a-program.index.htm">
+				<title>Core Elements of a Program</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-2-core-elements-of-a-program.MIT6_00SCS11_ps0.pdf"
+          identifierref="r_contents.unit-1.lecture-2-core-elements-of-a-program.MIT6_00SCS11_ps0.pdf">
+				<title>MIT6_00SCS11_ps0.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-2-core-elements-of-a-program.ses-02.jpg"
+          identifierref="r_contents.unit-1.lecture-2-core-elements-of-a-program.ses-02.jpg">
+				<title>ses-02.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-2-core-elements-of-a-program.MIT6_00SCS11_lec02.pdf"
+          identifierref="r_contents.unit-1.lecture-2-core-elements-of-a-program.MIT6_00SCS11_lec02.pdf">
+				<title>Lecture 2 handout: Core elements of a program</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-2-core-elements-of-a-program.lec02.py"
+          identifierref="r_contents.unit-1.lecture-2-core-elements-of-a-program.lec02.py">
+				<title>lec02.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.lecture-3-problem-solving"
+          identifierref="r_contents.unit-1.lecture-3-problem-solving.index.htm">
+				<title>Problem Solving</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-3-problem-solving.ses-03.jpg"
+          identifierref="r_contents.unit-1.lecture-3-problem-solving.ses-03.jpg">
+				<title>ses-03.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-3-problem-solving.MIT6_00SCS11_lec03.pdf"
+          identifierref="r_contents.unit-1.lecture-3-problem-solving.MIT6_00SCS11_lec03.pdf">
+				<title>Lecture 3 handout: problem solving</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-3-problem-solving.lec03.py"
+          identifierref="r_contents.unit-1.lecture-3-problem-solving.lec03.py">
+				<title>lec03.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.lecture-4-machine-interpretation-of-a-program"
+          identifierref="r_contents.unit-1.lecture-4-machine-interpretation-of-a-program.index.htm">
+				<title>Machine Interpretation of a Program</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-4-machine-interpretation-of-a-program.MIT6_00SCS11_ps1.pdf"
+          identifierref="r_contents.unit-1.lecture-4-machine-interpretation-of-a-program.MIT6_00SCS11_ps1.pdf">
+				<title>MIT6_00SCS11_ps1.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-4-machine-interpretation-of-a-program.ses-04.jpg"
+          identifierref="r_contents.unit-1.lecture-4-machine-interpretation-of-a-program.ses-04.jpg">
+				<title>ses-04.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-4-machine-interpretation-of-a-program.MIT6_00SCS11_lec04.pdf"
+          identifierref="r_contents.unit-1.lecture-4-machine-interpretation-of-a-program.MIT6_00SCS11_lec04.pdf">
+				<title>Lecture 4 handout: Machine interpretation of a program</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-4-machine-interpretation-of-a-program.ps1_sol.zip"
+          identifierref="r_contents.unit-1.lecture-4-machine-interpretation-of-a-program.ps1_sol.zip">
+				<title>ps1_sol.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-4-machine-interpretation-of-a-program.lec04.py"
+          identifierref="r_contents.unit-1.lecture-4-machine-interpretation-of-a-program.lec04.py">
+				<title>lec04.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.lecture-5-objects-in-python"
+          identifierref="r_contents.unit-1.lecture-5-objects-in-python.index.htm">
+				<title>Objects in Python</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-5-objects-in-python.ses-05.jpg"
+          identifierref="r_contents.unit-1.lecture-5-objects-in-python.ses-05.jpg">
+				<title>ses-05.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-5-objects-in-python.MIT6_00SCS11_lec05.pdf"
+          identifierref="r_contents.unit-1.lecture-5-objects-in-python.MIT6_00SCS11_lec05.pdf">
+				<title>Lecture 5 handout: Objects in Python</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-5-objects-in-python.lec05.py"
+          identifierref="r_contents.unit-1.lecture-5-objects-in-python.lec05.py">
+				<title>lec05.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.lecture-6-recursion"
+          identifierref="r_contents.unit-1.lecture-6-recursion.index.htm">
+				<title>Recursion</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-6-recursion.ps2.zip"
+          identifierref="r_contents.unit-1.lecture-6-recursion.ps2.zip">
+				<title>ps2.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-6-recursion.MIT6_00SCS11_ps2.pdf"
+          identifierref="r_contents.unit-1.lecture-6-recursion.MIT6_00SCS11_ps2.pdf">
+				<title>MIT6_00SCS11_ps2.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-6-recursion.ses-06.jpg"
+          identifierref="r_contents.unit-1.lecture-6-recursion.ses-06.jpg">
+				<title>ses-06.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-6-recursion.MIT6_00SCS11_lec06.pdf"
+          identifierref="r_contents.unit-1.lecture-6-recursion.MIT6_00SCS11_lec06.pdf">
+				<title>Lecture 6 handout: Recursion</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-6-recursion.ps2_sol.zip"
+          identifierref="r_contents.unit-1.lecture-6-recursion.ps2_sol.zip">
+				<title>ps2_sol.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-6-recursion.lec06.py"
+          identifierref="r_contents.unit-1.lecture-6-recursion.lec06.py">
+				<title>lec06.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.lecture-7-debugging"
+          identifierref="r_contents.unit-1.lecture-7-debugging.index.htm">
+				<title>Debugging</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-7-debugging.ps3.zip"
+          identifierref="r_contents.unit-1.lecture-7-debugging.ps3.zip">
+				<title>ps3.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-7-debugging.MIT6_00SCS11_ps3.pdf"
+          identifierref="r_contents.unit-1.lecture-7-debugging.MIT6_00SCS11_ps3.pdf">
+				<title>MIT6_00SCS11_ps3.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-7-debugging.ses-07.jpg"
+          identifierref="r_contents.unit-1.lecture-7-debugging.ses-07.jpg">
+				<title>ses-07.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-7-debugging.MIT6_00SCS11_lec07_slides.pdf"
+          identifierref="r_contents.unit-1.lecture-7-debugging.MIT6_00SCS11_lec07_slides.pdf">
+				<title>Lecture 7 slides: Debugging</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-7-debugging.MIT6_00SCS11_lec07.pdf"
+          identifierref="r_contents.unit-1.lecture-7-debugging.MIT6_00SCS11_lec07.pdf">
+				<title>Lecture 7 handout: Debugging</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-7-debugging.lec07.py"
+          identifierref="r_contents.unit-1.lecture-7-debugging.lec07.py">
+				<title>lec07.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-7-debugging.ps3_sol.zip"
+          identifierref="r_contents.unit-1.lecture-7-debugging.ps3_sol.zip">
+				<title>ps3_sol.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.lecture-8-efficiency-and-order-of-growth"
+          identifierref="r_contents.unit-1.lecture-8-efficiency-and-order-of-growth.index.htm">
+				<title>Efficiency and Order of Growth</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-8-efficiency-and-order-of-growth.showGrowth.py"
+          identifierref="r_contents.unit-1.lecture-8-efficiency-and-order-of-growth.showGrowth.py">
+				<title>showGrowth.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-8-efficiency-and-order-of-growth.ses-08.jpg"
+          identifierref="r_contents.unit-1.lecture-8-efficiency-and-order-of-growth.ses-08.jpg">
+				<title>ses-08.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-8-efficiency-and-order-of-growth.MIT6_00SCS11_rec04.pdf"
+          identifierref="r_contents.unit-1.lecture-8-efficiency-and-order-of-growth.MIT6_00SCS11_rec04.pdf">
+				<title> 6.00SC Optional Recitation: Notes on Big-O Notation</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-8-efficiency-and-order-of-growth.MIT6_00SCS11_lec08.pdf"
+          identifierref="r_contents.unit-1.lecture-8-efficiency-and-order-of-growth.MIT6_00SCS11_lec08.pdf">
+				<title>Lecture 8 handout: Efficiency and order of growth</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-8-efficiency-and-order-of-growth.lec08.py"
+          identifierref="r_contents.unit-1.lecture-8-efficiency-and-order-of-growth.lec08.py">
+				<title>lec08.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.lecture-9-memory-and-search-methods"
+          identifierref="r_contents.unit-1.lecture-9-memory-and-search-methods.index.htm">
+				<title>Memory and Search Methods</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-9-memory-and-search-methods.ses-09.jpg"
+          identifierref="r_contents.unit-1.lecture-9-memory-and-search-methods.ses-09.jpg">
+				<title>ses-09.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-9-memory-and-search-methods.MIT6_00SCS11_lec09.pdf"
+          identifierref="r_contents.unit-1.lecture-9-memory-and-search-methods.MIT6_00SCS11_lec09.pdf">
+				<title>Lecture 9 handout: Memory and search methods</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.lecture-9-memory-and-search-methods.lec09.py"
+          identifierref="r_contents.unit-1.lecture-9-memory-and-search-methods.lec09.py">
+				<title>lec09.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.quiz-i"
+          identifierref="r_contents.unit-1.quiz-i.index.htm">
+				<title>Quiz 1</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.quiz-i.MIT6_00SCS11_q1.pdf"
+          identifierref="r_contents.unit-1.quiz-i.MIT6_00SCS11_q1.pdf">
+				<title>MIT6_00SCS11_q1.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.quiz-i.MIT6_00SCS11_q1_topics.pdf"
+          identifierref="r_contents.unit-1.quiz-i.MIT6_00SCS11_q1_topics.pdf">
+				<title>6.00SC Quiz 1 Topics</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.quiz-i.MIT6_00SCS11_q1_practice.pdf"
+          identifierref="r_contents.unit-1.quiz-i.MIT6_00SCS11_q1_practice.pdf">
+				<title>6.00SC Practice Quiz 1</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-1.unit-1.quiz-i.MIT6_00SCS11_q1_soln.pdf"
+          identifierref="r_contents.unit-1.quiz-i.MIT6_00SCS11_q1_soln.pdf">
+				<title>6.00SC Quiz 1 Solutions</title>
+				</item>
+			</item>
+            <item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2"
+                  identifierref="r_contents.unit-2.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2014-1-1">
+				<title>Unit 2</title>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.lecture-10-hashing-and-classes"
+          identifierref="r_contents.unit-2.lecture-10-hashing-and-classes.index.htm">
+				<title>Hashing and Classes</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-10-hashing-and-classes.ses-10.jpg"
+          identifierref="r_contents.unit-2.lecture-10-hashing-and-classes.ses-10.jpg">
+				<title>ses-10.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-10-hashing-and-classes.ps4.zip"
+          identifierref="r_contents.unit-2.lecture-10-hashing-and-classes.ps4.zip">
+				<title>ps4.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-10-hashing-and-classes.MIT6_00SCS11_ps4.pdf"
+          identifierref="r_contents.unit-2.lecture-10-hashing-and-classes.MIT6_00SCS11_ps4.pdf">
+				<title>MIT6_00SCS11_ps4.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-10-hashing-and-classes.MIT6_00SCS11_ps4-pseudo.pdf"
+          identifierref="r_contents.unit-2.lecture-10-hashing-and-classes.MIT6_00SCS11_ps4-pseudo.pdf">
+				<title>MIT6_00SCS11_ps4-pseudo.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-10-hashing-and-classes.ps4_sol.zip"
+          identifierref="r_contents.unit-2.lecture-10-hashing-and-classes.ps4_sol.zip">
+				<title>ps4_sol.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-10-hashing-and-classes.MIT6_00SCS11_lec10.pdf"
+          identifierref="r_contents.unit-2.lecture-10-hashing-and-classes.MIT6_00SCS11_lec10.pdf">
+				<title>Lecture 10 handout: hashing and classes</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-10-hashing-and-classes.lec10.py"
+          identifierref="r_contents.unit-2.lecture-10-hashing-and-classes.lec10.py">
+				<title>lec10.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.lecture-11-oop-and-inheritance"
+          identifierref="r_contents.unit-2.lecture-11-oop-and-inheritance.index.htm">
+				<title>OOP and Inheritance</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-11-oop-and-inheritance.ses-11.jpg"
+          identifierref="r_contents.unit-2.lecture-11-oop-and-inheritance.ses-11.jpg">
+				<title>ses-11.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-11-oop-and-inheritance.MIT6_00SCS11_lec11.pdf"
+          identifierref="r_contents.unit-2.lecture-11-oop-and-inheritance.MIT6_00SCS11_lec11.pdf">
+				<title>Lecture 11 handout: Object-Oriented Programming (OOP) and Inheritance</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-11-oop-and-inheritance.lec11.py"
+          identifierref="r_contents.unit-2.lecture-11-oop-and-inheritance.lec11.py">
+				<title>lec11.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.lecture-12-introduction-to-simulation-and-random-walks"
+          identifierref="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.index.htm">
+				<title>Introduction to Simulation and Random Walks</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-12-introduction-to-simulation-and-random-walks.ses-12.jpg"
+          identifierref="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.ses-12.jpg">
+				<title>ses-12.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-12-introduction-to-simulation-and-random-walks.ps5.zip"
+          identifierref="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.ps5.zip">
+				<title>ps5.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-12-introduction-to-simulation-and-random-walks.MIT6_00SCS11_ps5.pdf"
+          identifierref="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.MIT6_00SCS11_ps5.pdf">
+				<title>MIT6_00SCS11_ps5.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-12-introduction-to-simulation-and-random-walks.ps5_sol.zip"
+          identifierref="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.ps5_sol.zip">
+				<title>ps5_sol.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-12-introduction-to-simulation-and-random-walks.MIT6_00SCS11_lec12.pdf"
+          identifierref="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.MIT6_00SCS11_lec12.pdf">
+				<title>Lecture 12 handout: Introduction to Simulation and Random Walks</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-12-introduction-to-simulation-and-random-walks.lec12.py"
+          identifierref="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.lec12.py">
+				<title>lec12.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.lecture-13-some-basic-probability-and-plotting-data"
+          identifierref="r_contents.unit-2.lecture-13-some-basic-probability-and-plotting-data.index.htm">
+				<title>Some Basic Probability and Plotting Data</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-13-some-basic-probability-and-plotting-data.ses-13.jpg"
+          identifierref="r_contents.unit-2.lecture-13-some-basic-probability-and-plotting-data.ses-13.jpg">
+				<title>ses-13.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-13-some-basic-probability-and-plotting-data.MIT6_00SCS11_lec13.pdf"
+          identifierref="r_contents.unit-2.lecture-13-some-basic-probability-and-plotting-data.MIT6_00SCS11_lec13.pdf">
+				<title>Lecture 13 handout: Some Basic Probability and Plotting Data</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-13-some-basic-probability-and-plotting-data.lec13.py"
+          identifierref="r_contents.unit-2.lecture-13-some-basic-probability-and-plotting-data.lec13.py">
+				<title>lec13.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.lecture-14-sampling-and-monte-carlo-simulation"
+          identifierref="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.index.htm">
+				<title>Sampling and Monte Carlo Simulation</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-14-sampling-and-monte-carlo-simulation.ses-14.jpg"
+          identifierref="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.ses-14.jpg">
+				<title>ses-14.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-14-sampling-and-monte-carlo-simulation.ps6.zip"
+          identifierref="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.ps6.zip">
+				<title>ps6.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-14-sampling-and-monte-carlo-simulation.MIT6_00SCS11_ps6.pdf"
+          identifierref="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.MIT6_00SCS11_ps6.pdf">
+				<title>MIT6_00SCS11_ps6.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-14-sampling-and-monte-carlo-simulation.ps6_sol.zip"
+          identifierref="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.ps6_sol.zip">
+				<title>ps6_sol.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-14-sampling-and-monte-carlo-simulation.MIT6_00SCS11_lec14.pdf"
+          identifierref="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.MIT6_00SCS11_lec14.pdf">
+				<title>Lecture 14 handout: Sampling and Monte Carlo Simulation</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-14-sampling-and-monte-carlo-simulation.lec14.py"
+          identifierref="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.lec14.py">
+				<title>lec14.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.lecture-15-statistical-thinking"
+          identifierref="r_contents.unit-2.lecture-15-statistical-thinking.index.htm">
+				<title>Statistical Thinking</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-15-statistical-thinking.ses-15.jpg"
+          identifierref="r_contents.unit-2.lecture-15-statistical-thinking.ses-15.jpg">
+				<title>ses-15.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-15-statistical-thinking.lec15.py"
+          identifierref="r_contents.unit-2.lecture-15-statistical-thinking.lec15.py">
+				<title>lec15.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-15-statistical-thinking.MIT6_00SCS11_lec15.pdf"
+          identifierref="r_contents.unit-2.lecture-15-statistical-thinking.MIT6_00SCS11_lec15.pdf">
+				<title>Lecture 15 handout: statistical thinking</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.lecture-16-using-randomness-to-solve-non-random-problems"
+          identifierref="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.index.htm">
+				<title>Using Randomness to Solve Non-random Problems</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.ses-16.jpg"
+          identifierref="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.ses-16.jpg">
+				<title>ses-16.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.ps7.py"
+          identifierref="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.ps7.py">
+				<title>ps7.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.MIT6_00SCS11_ps7.pdf"
+          identifierref="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.MIT6_00SCS11_ps7.pdf">
+				<title>MIT6_00SCS11_ps7.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.ps7_sol.zip"
+          identifierref="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.ps7_sol.zip">
+				<title>ps7_sol.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.lec16.py"
+          identifierref="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.lec16.py">
+				<title>lec16.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.MIT6_00SCS11_lec16.pdf"
+          identifierref="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.MIT6_00SCS11_lec16.pdf">
+				<title>Lecture 16 handout: Using Randomness to Solve Non-random Problems</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.lecture-17-curve-fitting"
+          identifierref="r_contents.unit-2.lecture-17-curve-fitting.index.htm">
+				<title>Curve Fitting</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-17-curve-fitting.ses-17.jpg"
+          identifierref="r_contents.unit-2.lecture-17-curve-fitting.ses-17.jpg">
+				<title>ses-17.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-17-curve-fitting.MIT6_00SCS11_lec17_slides.pdf"
+          identifierref="r_contents.unit-2.lecture-17-curve-fitting.MIT6_00SCS11_lec17_slides.pdf">
+				<title>Lecture 17 slides: curve fitting</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-17-curve-fitting.lec17.py"
+          identifierref="r_contents.unit-2.lecture-17-curve-fitting.lec17.py">
+				<title>lec17.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-17-curve-fitting.MIT6_00SCS11_lec17.pdf"
+          identifierref="r_contents.unit-2.lecture-17-curve-fitting.MIT6_00SCS11_lec17.pdf">
+				<title>Lecture 17 handout: curve fitting</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-17-curve-fitting.lec17_data.zip"
+          identifierref="r_contents.unit-2.lecture-17-curve-fitting.lec17_data.zip">
+				<title>lec17_data.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.lecture-18-optimization-problems-and-algorithms"
+          identifierref="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.index.htm">
+				<title>Optimization Problems and Algorithms</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-18-optimization-problems-and-algorithms.ses-18.jpg"
+          identifierref="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.ses-18.jpg">
+				<title>ses-18.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-18-optimization-problems-and-algorithms.ps8.zip"
+          identifierref="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.ps8.zip">
+				<title>ps8.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-18-optimization-problems-and-algorithms.MIT6_00SCS11_ps8.pdf"
+          identifierref="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.MIT6_00SCS11_ps8.pdf">
+				<title>MIT6_00SCS11_ps8.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-18-optimization-problems-and-algorithms.MIT6_00SCS11_lec18_slides.pdf"
+          identifierref="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.MIT6_00SCS11_lec18_slides.pdf">
+				<title>Lecture 18 slides: Optimization Problems and Algorithms</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-18-optimization-problems-and-algorithms.ps8_sol.zip"
+          identifierref="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.ps8_sol.zip">
+				<title>ps8_sol.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-18-optimization-problems-and-algorithms.lec18.py"
+          identifierref="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.lec18.py">
+				<title>lec18.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-18-optimization-problems-and-algorithms.MIT6_00SCS11_lec18.pdf"
+          identifierref="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.MIT6_00SCS11_lec18.pdf">
+				<title>Lecture 18 handout: Optimization Problems and Algorithms</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-18-optimization-problems-and-algorithms.lec18_launcher.txt"
+          identifierref="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.lec18_launcher.txt">
+				<title>lec18_launcher.txt</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.lecture-19-more-optimization-and-clustering"
+          identifierref="r_contents.unit-2.lecture-19-more-optimization-and-clustering.index.htm">
+				<title>More Optimization and Clustering</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-19-more-optimization-and-clustering.ses-19.jpg"
+          identifierref="r_contents.unit-2.lecture-19-more-optimization-and-clustering.ses-19.jpg">
+				<title>ses-19.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-19-more-optimization-and-clustering.MIT6_00SCS11_lec19_slides.pdf"
+          identifierref="r_contents.unit-2.lecture-19-more-optimization-and-clustering.MIT6_00SCS11_lec19_slides.pdf">
+				<title>Lecture 19 slides: More Optimization and Clustering</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-19-more-optimization-and-clustering.MIT6_00SCS11_lec19.pdf"
+          identifierref="r_contents.unit-2.lecture-19-more-optimization-and-clustering.MIT6_00SCS11_lec19.pdf">
+				<title>Lecture 19 handout: More Optimization and Clustering</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.lecture-19-more-optimization-and-clustering.lec19.py"
+          identifierref="r_contents.unit-2.lecture-19-more-optimization-and-clustering.lec19.py">
+				<title>lec19.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.quiz-ii"
+          identifierref="r_contents.unit-2.quiz-ii.index.htm">
+				<title>Quiz 2</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.quiz-ii.MIT6_00SCS11_q2.pdf"
+          identifierref="r_contents.unit-2.quiz-ii.MIT6_00SCS11_q2.pdf">
+				<title>MIT6_00SCS11_q2.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.quiz-ii.MIT6_00SCS11_q2_topics.pdf"
+          identifierref="r_contents.unit-2.quiz-ii.MIT6_00SCS11_q2_topics.pdf">
+				<title>6.00SC Quiz 2 Topics</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.quiz-ii.MIT6_00SCS11_q2_practice.pdf"
+          identifierref="r_contents.unit-2.quiz-ii.MIT6_00SCS11_q2_practice.pdf">
+				<title>6.00SC Practice Quiz 2</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-2.unit-2.quiz-ii.MIT6_00SCS11_q2_soln.pdf"
+          identifierref="r_contents.unit-2.quiz-ii.MIT6_00SCS11_q2_soln.pdf">
+				<title>6.00SC Quiz 2 Solutions</title>
+				</item>
+			</item>
+            <item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3"
+                  identifierref="r_contents.unit-3.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2014-1-1">
+				<title>Unit 3</title>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.lecture-20-more-clustering"
+          identifierref="r_contents.unit-3.lecture-20-more-clustering.index.htm">
+				<title>More Clustering</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-20-more-clustering.ses-20.jpg"
+          identifierref="r_contents.unit-3.lecture-20-more-clustering.ses-20.jpg">
+				<title>ses-20.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-20-more-clustering.ps9.zip"
+          identifierref="r_contents.unit-3.lecture-20-more-clustering.ps9.zip">
+				<title>ps9.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-20-more-clustering.MIT6_00SCS11_ps9.pdf"
+          identifierref="r_contents.unit-3.lecture-20-more-clustering.MIT6_00SCS11_ps9.pdf">
+				<title>MIT6_00SCS11_ps9.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-20-more-clustering.MIT6_00SCS11_lec20_slides.pdf"
+          identifierref="r_contents.unit-3.lecture-20-more-clustering.MIT6_00SCS11_lec20_slides.pdf">
+				<title>Lecture 20 slides: More Clustering</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-20-more-clustering.ps9_sol.zip"
+          identifierref="r_contents.unit-3.lecture-20-more-clustering.ps9_sol.zip">
+				<title>ps9_sol.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-20-more-clustering.MIT6_00SCS11_lec20.pdf"
+          identifierref="r_contents.unit-3.lecture-20-more-clustering.MIT6_00SCS11_lec20.pdf">
+				<title>Lecture 20 handout: More Clustering</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-20-more-clustering.lec20.py"
+          identifierref="r_contents.unit-3.lecture-20-more-clustering.lec20.py">
+				<title>lec20.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-20-more-clustering.lec20_data.zip"
+          identifierref="r_contents.unit-3.lecture-20-more-clustering.lec20_data.zip">
+				<title>lec20_data.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.lecture-21-using-graphs-to-model-problems-part-1"
+          identifierref="r_contents.unit-3.lecture-21-using-graphs-to-model-problems-part-1.index.htm">
+				<title>Using Graphs to Model Problems, Part 1</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-21-using-graphs-to-model-problems-part-1.ses-21.jpg"
+          identifierref="r_contents.unit-3.lecture-21-using-graphs-to-model-problems-part-1.ses-21.jpg">
+				<title>ses-21.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-21-using-graphs-to-model-problems-part-1.MIT6_00SCS11_lec21_slides.pdf"
+          identifierref="r_contents.unit-3.lecture-21-using-graphs-to-model-problems-part-1.MIT6_00SCS11_lec21_slides.pdf">
+				<title>Lecture 21 slides: Using Graphs to Model Problems, Part 1</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-21-using-graphs-to-model-problems-part-1.MIT6_00SCS11_lec21.pdf"
+          identifierref="r_contents.unit-3.lecture-21-using-graphs-to-model-problems-part-1.MIT6_00SCS11_lec21.pdf">
+				<title>Lecture 21 handout: Using Graphs to Model Problems, Part 1</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-21-using-graphs-to-model-problems-part-1.lec21.py"
+          identifierref="r_contents.unit-3.lecture-21-using-graphs-to-model-problems-part-1.lec21.py">
+				<title>lec21.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.lecture-22-using-graphs-to-model-problems-part-2"
+          identifierref="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.index.htm">
+				<title>Using Graphs to Model Problems, Part 2</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-22-using-graphs-to-model-problems-part-2.ses-22.jpg"
+          identifierref="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.ses-22.jpg">
+				<title>ses-22.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-22-using-graphs-to-model-problems-part-2.ps10.zip"
+          identifierref="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.ps10.zip">
+				<title>ps10.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-22-using-graphs-to-model-problems-part-2.MIT6_00SCS11_ps10.pdf"
+          identifierref="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.MIT6_00SCS11_ps10.pdf">
+				<title>MIT6_00SCS11_ps10.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-22-using-graphs-to-model-problems-part-2.ps10_sol.zip"
+          identifierref="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.ps10_sol.zip">
+				<title>ps10_sol.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-22-using-graphs-to-model-problems-part-2.lec22.py"
+          identifierref="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.lec22.py">
+				<title>lec22.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-22-using-graphs-to-model-problems-part-2.MIT6_00SCS11_lec22.pdf"
+          identifierref="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.MIT6_00SCS11_lec22.pdf">
+				<title>Lecture 22 handout: Using Graphs to Model Problems, Part 2</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.lecture-23-dynamic-programming"
+          identifierref="r_contents.unit-3.lecture-23-dynamic-programming.index.htm">
+				<title>Dynamic Programming</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-23-dynamic-programming.ses-23.jpg"
+          identifierref="r_contents.unit-3.lecture-23-dynamic-programming.ses-23.jpg">
+				<title>ses-23.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-23-dynamic-programming.lec23.py"
+          identifierref="r_contents.unit-3.lecture-23-dynamic-programming.lec23.py">
+				<title>lec23.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-23-dynamic-programming.MIT6_00SCS11_lec23.pdf"
+          identifierref="r_contents.unit-3.lecture-23-dynamic-programming.MIT6_00SCS11_lec23.pdf">
+				<title>Lecture 23 handout: Dynamic Programming</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.lecture-24-avoiding-statistical-fallacies"
+          identifierref="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.index.htm">
+				<title>Avoiding Statistical Fallacies</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-24-avoiding-statistical-fallacies.ses-24.jpg"
+          identifierref="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.ses-24.jpg">
+				<title>ses-24.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-24-avoiding-statistical-fallacies.ps11.zip"
+          identifierref="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.ps11.zip">
+				<title>ps11.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-24-avoiding-statistical-fallacies.MIT6_00SCS11_ps11.pdf"
+          identifierref="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.MIT6_00SCS11_ps11.pdf">
+				<title>MIT6_00SCS11_ps11.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-24-avoiding-statistical-fallacies.MIT6_00SCS11_lec24_slides.pdf"
+          identifierref="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.MIT6_00SCS11_lec24_slides.pdf">
+				<title>Lecture 24 slides: Avoiding Statistical Fallacies</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-24-avoiding-statistical-fallacies.ps11_sol.zip"
+          identifierref="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.ps11_sol.zip">
+				<title>ps11_sol.zip</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-24-avoiding-statistical-fallacies.lec24.py"
+          identifierref="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.lec24.py">
+				<title>lec24.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-24-avoiding-statistical-fallacies.MIT6_00SCS11_lec24.pdf"
+          identifierref="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.MIT6_00SCS11_lec24.pdf">
+				<title>Lecture 24 handout: Avoiding Statistical Fallacies</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.lecture-25-queuing-network-models"
+          identifierref="r_contents.unit-3.lecture-25-queuing-network-models.index.htm">
+				<title>Queuing Network Models</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-25-queuing-network-models.ses-25.jpg"
+          identifierref="r_contents.unit-3.lecture-25-queuing-network-models.ses-25.jpg">
+				<title>ses-25.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-25-queuing-network-models.lec25.py"
+          identifierref="r_contents.unit-3.lecture-25-queuing-network-models.lec25.py">
+				<title>lec25.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-25-queuing-network-models.MIT6_00SCS11_lec25.pdf"
+          identifierref="r_contents.unit-3.lecture-25-queuing-network-models.MIT6_00SCS11_lec25.pdf">
+				<title>Lecture 25 handout: Queuing Network Models</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-25-queuing-network-models.q3_bus.py"
+          identifierref="r_contents.unit-3.lecture-25-queuing-network-models.q3_bus.py">
+				<title>q3_bus.py</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.lecture-26-what-do-computer-scientists-do"
+          identifierref="r_contents.unit-3.lecture-26-what-do-computer-scientists-do.index.htm">
+				<title>What Do Computer Scientists Do?</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-26-what-do-computer-scientists-do.ses-26.jpg"
+          identifierref="r_contents.unit-3.lecture-26-what-do-computer-scientists-do.ses-26.jpg">
+				<title>ses-26.jpg</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.lecture-26-what-do-computer-scientists-do.MIT6_00SCS11_lec26_slides.pdf"
+          identifierref="r_contents.unit-3.lecture-26-what-do-computer-scientists-do.MIT6_00SCS11_lec26_slides.pdf">
+				<title>Lecture 26 slides: What do computer scientists do?</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.final-exam"
+          identifierref="r_contents.unit-3.final-exam.index.htm">
+				<title>Final Exam</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.final-exam.MIT6_00SCS11_q3.pdf"
+          identifierref="r_contents.unit-3.final-exam.MIT6_00SCS11_q3.pdf">
+				<title>MIT6_00SCS11_q3.pdf</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.final-exam.MIT6_00SCS11_q3_topics.pdf"
+          identifierref="r_contents.unit-3.final-exam.MIT6_00SCS11_q3_topics.pdf">
+				<title>6.00SC Quiz 2 Topics</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.final-exam.MIT6_00SCS11_q3_practice.pdf"
+          identifierref="r_contents.unit-3.final-exam.MIT6_00SCS11_q3_practice.pdf">
+				<title>6.00SC Practice Quiz 2</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.final-exam.MIT6_00SCS11_q3_soln.pdf"
+          identifierref="r_contents.unit-3.final-exam.MIT6_00SCS11_q3_soln.pdf">
+				<title>6.00SC Quiz 3 Solutions</title>
+				</item>
+				<item identifier="i_6-00sc-introduction-to-computer-science-and-programming-spring-2011.unit-3.unit-3.final-exam.q3_bus.py"
+          identifierref="r_contents.unit-3.final-exam.q3_bus.py">
+				<title>q3_bus.py</title>
+				</item>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2014-1-1">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2014-1-1">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2014-1-1">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.unit-3.lecture-21-using-graphs-to-model-problems-part-1.ses-21.jpg"
+                  type="other"
+                  href="contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/ses-21.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/ses-21.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/ses-21.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.lec12.py"
+                  type="other"
+                  href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/lec12.py">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/lec12.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/lec12.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-17-curve-fitting.ses-17.jpg"
+                  type="other"
+                  href="contents/unit-2/lecture-17-curve-fitting/ses-17.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-17-curve-fitting/ses-17.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-17-curve-fitting/ses-17.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-1-introduction-to-6.00.ses-01.jpg"
+                  type="other"
+                  href="contents/unit-1/lecture-1-introduction-to-6.00/ses-01.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-1-introduction-to-6.00/ses-01.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-1-introduction-to-6.00/ses-01.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-7-debugging.MIT6_00SCS11_lec07.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-7-debugging/MIT6_00SCS11_lec07.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-7-debugging/MIT6_00SCS11_lec07.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-7-debugging/MIT6_00SCS11_lec07.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-9-memory-and-search-methods.MIT6_00SCS11_lec09.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-9-memory-and-search-methods/MIT6_00SCS11_lec09.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-9-memory-and-search-methods/MIT6_00SCS11_lec09.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-9-memory-and-search-methods/MIT6_00SCS11_lec09.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.MIT6_00SCS11_ps6.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/MIT6_00SCS11_ps6.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/MIT6_00SCS11_ps6.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/MIT6_00SCS11_ps6.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-5-objects-in-python.lec05.py"
+                  type="other"
+                  href="contents/unit-1/lecture-5-objects-in-python/lec05.py">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-5-objects-in-python/lec05.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-5-objects-in-python/lec05.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-2-core-elements-of-a-program.MIT6_00SCS11_lec02.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-2-core-elements-of-a-program/MIT6_00SCS11_lec02.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-2-core-elements-of-a-program/MIT6_00SCS11_lec02.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-2-core-elements-of-a-program/MIT6_00SCS11_lec02.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-20-more-clustering.lec20_data.zip"
+                  type="other"
+                  href="contents/unit-3/lecture-20-more-clustering/lec20_data.zip">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-20-more-clustering/lec20_data.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-20-more-clustering/lec20_data.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.MIT6_00SCS11_lec18_slides.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/MIT6_00SCS11_lec18_slides.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-18-optimization-problems-and-algorithms/MIT6_00SCS11_lec18_slides.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/MIT6_00SCS11_lec18_slides.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-20-more-clustering.index.htm"
+                  type="webcontent"
+                  href="contents/unit-3/lecture-20-more-clustering/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-20-more-clustering/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-20-more-clustering/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-10-hashing-and-classes.MIT6_00SCS11_ps4.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-10-hashing-and-classes/MIT6_00SCS11_ps4.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-10-hashing-and-classes/MIT6_00SCS11_ps4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-10-hashing-and-classes/MIT6_00SCS11_ps4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.index.htm"
+                  type="webcontent"
+                  href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.MIT6_00SCS11_lec22.pdf"
+                  type="other"
+                  href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/MIT6_00SCS11_lec22.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/MIT6_00SCS11_lec22.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/MIT6_00SCS11_lec22.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-19-more-optimization-and-clustering.MIT6_00SCS11_lec19_slides.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-19-more-optimization-and-clustering/MIT6_00SCS11_lec19_slides.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-19-more-optimization-and-clustering/MIT6_00SCS11_lec19_slides.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-19-more-optimization-and-clustering/MIT6_00SCS11_lec19_slides.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-26-what-do-computer-scientists-do.MIT6_00SCS11_lec26_slides.pdf"
+                  type="other"
+                  href="contents/unit-3/lecture-26-what-do-computer-scientists-do/MIT6_00SCS11_lec26_slides.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-26-what-do-computer-scientists-do/MIT6_00SCS11_lec26_slides.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-26-what-do-computer-scientists-do/MIT6_00SCS11_lec26_slides.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.quiz-ii.MIT6_00SCS11_q2_topics.pdf"
+                  type="other"
+                  href="contents/unit-2/quiz-ii/MIT6_00SCS11_q2_topics.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/quiz-ii/MIT6_00SCS11_q2_topics.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/quiz-ii/MIT6_00SCS11_q2_topics.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-10-hashing-and-classes.MIT6_00SCS11_ps4-pseudo.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-10-hashing-and-classes/MIT6_00SCS11_ps4-pseudo.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-10-hashing-and-classes/MIT6_00SCS11_ps4-pseudo.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-10-hashing-and-classes/MIT6_00SCS11_ps4-pseudo.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-20-more-clustering.lec20.py"
+                  type="other"
+                  href="contents/unit-3/lecture-20-more-clustering/lec20.py">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-20-more-clustering/lec20.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-20-more-clustering/lec20.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.Syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/Syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/Syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/Syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-15-statistical-thinking.ses-15.jpg"
+                  type="other"
+                  href="contents/unit-2/lecture-15-statistical-thinking/ses-15.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-15-statistical-thinking/ses-15.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-15-statistical-thinking/ses-15.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.quiz-ii.MIT6_00SCS11_q2_soln.pdf"
+                  type="other"
+                  href="contents/unit-2/quiz-ii/MIT6_00SCS11_q2_soln.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/quiz-ii/MIT6_00SCS11_q2_soln.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/quiz-ii/MIT6_00SCS11_q2_soln.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-10-hashing-and-classes.index.htm"
+                  type="webcontent"
+                  href="contents/unit-2/lecture-10-hashing-and-classes/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-10-hashing-and-classes/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-10-hashing-and-classes/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-20-more-clustering.ps9.zip"
+                  type="other"
+                  href="contents/unit-3/lecture-20-more-clustering/ps9.zip">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-20-more-clustering/ps9.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-20-more-clustering/ps9.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-17-curve-fitting.MIT6_00SCS11_lec17_slides.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-17-curve-fitting/MIT6_00SCS11_lec17_slides.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-17-curve-fitting/MIT6_00SCS11_lec17_slides.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-17-curve-fitting/MIT6_00SCS11_lec17_slides.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.ses-24.jpg"
+                  type="other"
+                  href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/ses-24.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-24-avoiding-statistical-fallacies/ses-24.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/ses-24.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-3-problem-solving.ses-03.jpg"
+                  type="other"
+                  href="contents/unit-1/lecture-3-problem-solving/ses-03.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-3-problem-solving/ses-03.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-3-problem-solving/ses-03.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-10-hashing-and-classes.ps4_sol.zip"
+                  type="other"
+                  href="contents/unit-2/lecture-10-hashing-and-classes/ps4_sol.zip">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-10-hashing-and-classes/ps4_sol.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-10-hashing-and-classes/ps4_sol.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-17-curve-fitting.lec17.py"
+                  type="other"
+                  href="contents/unit-2/lecture-17-curve-fitting/lec17.py">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-17-curve-fitting/lec17.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-17-curve-fitting/lec17.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-2-core-elements-of-a-program.ses-02.jpg"
+                  type="other"
+                  href="contents/unit-1/lecture-2-core-elements-of-a-program/ses-02.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-2-core-elements-of-a-program/ses-02.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-2-core-elements-of-a-program/ses-02.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.MIT6_00SCS11_lec24.pdf"
+                  type="other"
+                  href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/MIT6_00SCS11_lec24.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-24-avoiding-statistical-fallacies/MIT6_00SCS11_lec24.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/MIT6_00SCS11_lec24.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.quiz-ii.index.htm"
+                  type="webcontent"
+                  href="contents/unit-2/quiz-ii/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-2/quiz-ii/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/quiz-ii/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-7-debugging.ses-07.jpg"
+                  type="other"
+                  href="contents/unit-1/lecture-7-debugging/ses-07.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-7-debugging/ses-07.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-7-debugging/ses-07.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-23-dynamic-programming.lec23.py"
+                  type="other"
+                  href="contents/unit-3/lecture-23-dynamic-programming/lec23.py">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-23-dynamic-programming/lec23.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-23-dynamic-programming/lec23.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-7-debugging.index.htm"
+                  type="webcontent"
+                  href="contents/unit-1/lecture-7-debugging/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-7-debugging/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-7-debugging/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-4-machine-interpretation-of-a-program.ses-04.jpg"
+                  type="other"
+                  href="contents/unit-1/lecture-4-machine-interpretation-of-a-program/ses-04.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-4-machine-interpretation-of-a-program/ses-04.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-4-machine-interpretation-of-a-program/ses-04.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-10-hashing-and-classes.ps4.zip"
+                  type="other"
+                  href="contents/unit-2/lecture-10-hashing-and-classes/ps4.zip">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-10-hashing-and-classes/ps4.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-10-hashing-and-classes/ps4.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-8-efficiency-and-order-of-growth.MIT6_00SCS11_lec08.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-8-efficiency-and-order-of-growth/MIT6_00SCS11_lec08.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-8-efficiency-and-order-of-growth/MIT6_00SCS11_lec08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-8-efficiency-and-order-of-growth/MIT6_00SCS11_lec08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-5-objects-in-python.ses-05.jpg"
+                  type="other"
+                  href="contents/unit-1/lecture-5-objects-in-python/ses-05.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-5-objects-in-python/ses-05.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-5-objects-in-python/ses-05.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.MIT6_00SCS11_ps11.pdf"
+                  type="other"
+                  href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/MIT6_00SCS11_ps11.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-24-avoiding-statistical-fallacies/MIT6_00SCS11_ps11.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/MIT6_00SCS11_ps11.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-10-hashing-and-classes.ses-10.jpg"
+                  type="other"
+                  href="contents/unit-2/lecture-10-hashing-and-classes/ses-10.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-10-hashing-and-classes/ses-10.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-10-hashing-and-classes/ses-10.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.ses-16.jpg"
+                  type="other"
+                  href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/ses-16.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/ses-16.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/ses-16.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.index.htm"
+                  type="webcontent"
+                  href="contents/unit-3/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-3/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-13-some-basic-probability-and-plotting-data.MIT6_00SCS11_lec13.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-13-some-basic-probability-and-plotting-data/MIT6_00SCS11_lec13.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-13-some-basic-probability-and-plotting-data/MIT6_00SCS11_lec13.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-13-some-basic-probability-and-plotting-data/MIT6_00SCS11_lec13.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.quiz-ii.MIT6_00SCS11_q2_practice.pdf"
+                  type="other"
+                  href="contents/unit-2/quiz-ii/MIT6_00SCS11_q2_practice.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/quiz-ii/MIT6_00SCS11_q2_practice.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/quiz-ii/MIT6_00SCS11_q2_practice.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-6-recursion.ps2_sol.zip"
+                  type="other"
+                  href="contents/unit-1/lecture-6-recursion/ps2_sol.zip">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-6-recursion/ps2_sol.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-6-recursion/ps2_sol.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-25-queuing-network-models.ses-25.jpg"
+                  type="other"
+                  href="contents/unit-3/lecture-25-queuing-network-models/ses-25.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-25-queuing-network-models/ses-25.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-25-queuing-network-models/ses-25.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.ps7.py"
+                  type="other"
+                  href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/ps7.py">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/ps7.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/ps7.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-13-some-basic-probability-and-plotting-data.index.htm"
+                  type="webcontent"
+                  href="contents/unit-2/lecture-13-some-basic-probability-and-plotting-data/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-13-some-basic-probability-and-plotting-data/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-13-some-basic-probability-and-plotting-data/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-6-recursion.ps2.zip"
+                  type="other"
+                  href="contents/unit-1/lecture-6-recursion/ps2.zip">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-6-recursion/ps2.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-6-recursion/ps2.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-15-statistical-thinking.MIT6_00SCS11_lec15.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-15-statistical-thinking/MIT6_00SCS11_lec15.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-15-statistical-thinking/MIT6_00SCS11_lec15.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-15-statistical-thinking/MIT6_00SCS11_lec15.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-10-hashing-and-classes.MIT6_00SCS11_lec10.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-10-hashing-and-classes/MIT6_00SCS11_lec10.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-10-hashing-and-classes/MIT6_00SCS11_lec10.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-10-hashing-and-classes/MIT6_00SCS11_lec10.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-21-using-graphs-to-model-problems-part-1.index.htm"
+                  type="webcontent"
+                  href="contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-25-queuing-network-models.q3_bus.py"
+                  type="other"
+                  href="contents/unit-3/lecture-25-queuing-network-models/q3_bus.py">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-25-queuing-network-models/q3_bus.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-25-queuing-network-models/q3_bus.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.index.htm"
+                  type="webcontent"
+                  href="contents/unit-1/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-1/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-7-debugging.ps3_sol.zip"
+                  type="other"
+                  href="contents/unit-1/lecture-7-debugging/ps3_sol.zip">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-7-debugging/ps3_sol.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-7-debugging/ps3_sol.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-2-core-elements-of-a-program.MIT6_00SCS11_ps0.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-2-core-elements-of-a-program/MIT6_00SCS11_ps0.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-2-core-elements-of-a-program/MIT6_00SCS11_ps0.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-2-core-elements-of-a-program/MIT6_00SCS11_ps0.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.MIT6_00SCS11_lec14.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/MIT6_00SCS11_lec14.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/MIT6_00SCS11_lec14.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/MIT6_00SCS11_lec14.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.quiz-i.MIT6_00SCS11_q1_topics.pdf"
+                  type="other"
+                  href="contents/unit-1/quiz-i/MIT6_00SCS11_q1_topics.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/quiz-i/MIT6_00SCS11_q1_topics.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/quiz-i/MIT6_00SCS11_q1_topics.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-20-more-clustering.ses-20.jpg"
+                  type="other"
+                  href="contents/unit-3/lecture-20-more-clustering/ses-20.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-20-more-clustering/ses-20.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-20-more-clustering/ses-20.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.lec24.py"
+                  type="other"
+                  href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/lec24.py">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-24-avoiding-statistical-fallacies/lec24.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/lec24.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.final-exam.MIT6_00SCS11_q3.pdf"
+                  type="other"
+                  href="contents/unit-3/final-exam/MIT6_00SCS11_q3.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/final-exam/MIT6_00SCS11_q3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/final-exam/MIT6_00SCS11_q3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-3-problem-solving.lec03.py"
+                  type="other"
+                  href="contents/unit-1/lecture-3-problem-solving/lec03.py">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-3-problem-solving/lec03.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-3-problem-solving/lec03.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-2-core-elements-of-a-program.lec02.py"
+                  type="other"
+                  href="contents/unit-1/lecture-2-core-elements-of-a-program/lec02.py">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-2-core-elements-of-a-program/lec02.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-2-core-elements-of-a-program/lec02.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.MIT6_00SCS11_lec18.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/MIT6_00SCS11_lec18.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-18-optimization-problems-and-algorithms/MIT6_00SCS11_lec18.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/MIT6_00SCS11_lec18.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-20-more-clustering.MIT6_00SCS11_ps9.pdf"
+                  type="other"
+                  href="contents/unit-3/lecture-20-more-clustering/MIT6_00SCS11_ps9.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-20-more-clustering/MIT6_00SCS11_ps9.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-20-more-clustering/MIT6_00SCS11_ps9.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-19-more-optimization-and-clustering.index.htm"
+                  type="webcontent"
+                  href="contents/unit-2/lecture-19-more-optimization-and-clustering/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-19-more-optimization-and-clustering/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-19-more-optimization-and-clustering/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-19-more-optimization-and-clustering.lec19.py"
+                  type="other"
+                  href="contents/unit-2/lecture-19-more-optimization-and-clustering/lec19.py">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-19-more-optimization-and-clustering/lec19.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-19-more-optimization-and-clustering/lec19.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-6-recursion.lec06.py"
+                  type="other"
+                  href="contents/unit-1/lecture-6-recursion/lec06.py">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-6-recursion/lec06.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-6-recursion/lec06.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.ps11_sol.zip"
+                  type="other"
+                  href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/ps11_sol.zip">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-24-avoiding-statistical-fallacies/ps11_sol.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/ps11_sol.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.references.index.htm"
+                  type="webcontent"
+                  href="contents/references/index.htm">
+            <metadata>
+                <adlcp:location>contents/references/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/references/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-9-memory-and-search-methods.lec09.py"
+                  type="other"
+                  href="contents/unit-1/lecture-9-memory-and-search-methods/lec09.py">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-9-memory-and-search-methods/lec09.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-9-memory-and-search-methods/lec09.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.MIT6_00SCS11_ps5.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/MIT6_00SCS11_ps5.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/MIT6_00SCS11_ps5.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/MIT6_00SCS11_ps5.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.index.htm"
+                  type="webcontent"
+                  href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-24-avoiding-statistical-fallacies/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.ps10.zip"
+                  type="other"
+                  href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ps10.zip">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ps10.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ps10.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-4-machine-interpretation-of-a-program.MIT6_00SCS11_lec04.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-4-machine-interpretation-of-a-program/MIT6_00SCS11_lec04.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-4-machine-interpretation-of-a-program/MIT6_00SCS11_lec04.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-4-machine-interpretation-of-a-program/MIT6_00SCS11_lec04.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.6-00scf11.jpg"
+                  type="other" href="contents/6-00scf11.jpg">
+            <metadata>
+                <adlcp:location>contents/6-00scf11.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/6-00scf11.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-9-memory-and-search-methods.index.htm"
+                  type="webcontent"
+                  href="contents/unit-1/lecture-9-memory-and-search-methods/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-9-memory-and-search-methods/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-9-memory-and-search-methods/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-6-recursion.index.htm"
+                  type="webcontent"
+                  href="contents/unit-1/lecture-6-recursion/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-6-recursion/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-6-recursion/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-25-queuing-network-models.MIT6_00SCS11_lec25.pdf"
+                  type="other"
+                  href="contents/unit-3/lecture-25-queuing-network-models/MIT6_00SCS11_lec25.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-25-queuing-network-models/MIT6_00SCS11_lec25.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-25-queuing-network-models/MIT6_00SCS11_lec25.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-1-introduction-to-6.00.index.htm"
+                  type="webcontent"
+                  href="contents/unit-1/lecture-1-introduction-to-6.00/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-1-introduction-to-6.00/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-1-introduction-to-6.00/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.ps6.zip"
+                  type="other"
+                  href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/ps6.zip">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/ps6.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/ps6.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.lec18_launcher.txt"
+                  type="other"
+                  href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/lec18_launcher.txt">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-18-optimization-problems-and-algorithms/lec18_launcher.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/lec18_launcher.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.ps11.zip"
+                  type="other"
+                  href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/ps11.zip">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-24-avoiding-statistical-fallacies/ps11.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/ps11.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-19-more-optimization-and-clustering.ses-19.jpg"
+                  type="other"
+                  href="contents/unit-2/lecture-19-more-optimization-and-clustering/ses-19.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-19-more-optimization-and-clustering/ses-19.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-19-more-optimization-and-clustering/ses-19.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.index.htm"
+                  type="webcontent"
+                  href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-18-optimization-problems-and-algorithms/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-25-queuing-network-models.lec25.py"
+                  type="other"
+                  href="contents/unit-3/lecture-25-queuing-network-models/lec25.py">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-25-queuing-network-models/lec25.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-25-queuing-network-models/lec25.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-2.index.htm"
+                  type="webcontent"
+                  href="contents/unit-2/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-2/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-17-curve-fitting.index.htm"
+                  type="webcontent"
+                  href="contents/unit-2/lecture-17-curve-fitting/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-17-curve-fitting/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-17-curve-fitting/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-2-core-elements-of-a-program.index.htm"
+                  type="webcontent"
+                  href="contents/unit-1/lecture-2-core-elements-of-a-program/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-2-core-elements-of-a-program/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-2-core-elements-of-a-program/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-11-oop-and-inheritance.index.htm"
+                  type="webcontent"
+                  href="contents/unit-2/lecture-11-oop-and-inheritance/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-11-oop-and-inheritance/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-11-oop-and-inheritance/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-7-debugging.MIT6_00SCS11_ps3.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-7-debugging/MIT6_00SCS11_ps3.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-7-debugging/MIT6_00SCS11_ps3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-7-debugging/MIT6_00SCS11_ps3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.lec16.py"
+                  type="other"
+                  href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/lec16.py">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/lec16.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/lec16.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-11-oop-and-inheritance.ses-11.jpg"
+                  type="other"
+                  href="contents/unit-2/lecture-11-oop-and-inheritance/ses-11.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-11-oop-and-inheritance/ses-11.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-11-oop-and-inheritance/ses-11.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-26-what-do-computer-scientists-do.ses-26.jpg"
+                  type="other"
+                  href="contents/unit-3/lecture-26-what-do-computer-scientists-do/ses-26.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-26-what-do-computer-scientists-do/ses-26.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-26-what-do-computer-scientists-do/ses-26.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-15-statistical-thinking.index.htm"
+                  type="webcontent"
+                  href="contents/unit-2/lecture-15-statistical-thinking/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-15-statistical-thinking/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-15-statistical-thinking/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.MIT6_00SCS11_lec16.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/MIT6_00SCS11_lec16.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/MIT6_00SCS11_lec16.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/MIT6_00SCS11_lec16.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-7-debugging.lec07.py"
+                  type="other"
+                  href="contents/unit-1/lecture-7-debugging/lec07.py">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-7-debugging/lec07.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-7-debugging/lec07.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-7-debugging.ps3.zip"
+                  type="other"
+                  href="contents/unit-1/lecture-7-debugging/ps3.zip">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-7-debugging/ps3.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-7-debugging/ps3.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-8-efficiency-and-order-of-growth.index.htm"
+                  type="webcontent"
+                  href="contents/unit-1/lecture-8-efficiency-and-order-of-growth/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-8-efficiency-and-order-of-growth/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-8-efficiency-and-order-of-growth/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-6-recursion.ses-06.jpg"
+                  type="other"
+                  href="contents/unit-1/lecture-6-recursion/ses-06.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-6-recursion/ses-06.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-6-recursion/ses-06.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.MIT6_00SCS11_ps7.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/MIT6_00SCS11_ps7.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/MIT6_00SCS11_ps7.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/MIT6_00SCS11_ps7.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.ses-12.jpg"
+                  type="other"
+                  href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/ses-12.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/ses-12.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/ses-12.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.lec18.py"
+                  type="other"
+                  href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/lec18.py">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-18-optimization-problems-and-algorithms/lec18.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/lec18.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-4-machine-interpretation-of-a-program.MIT6_00SCS11_ps1.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-4-machine-interpretation-of-a-program/MIT6_00SCS11_ps1.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-4-machine-interpretation-of-a-program/MIT6_00SCS11_ps1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-4-machine-interpretation-of-a-program/MIT6_00SCS11_ps1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.6-00scf11-th.jpg"
+                  type="other"
+                  href="contents/6-00scf11-th.jpg">
+            <metadata>
+                <adlcp:location>contents/6-00scf11-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/6-00scf11-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.final-exam.q3_bus.py"
+                  type="other"
+                  href="contents/unit-3/final-exam/q3_bus.py">
+            <metadata>
+                <adlcp:location>contents/unit-3/final-exam/q3_bus.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/final-exam/q3_bus.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.ps5_sol.zip"
+                  type="other"
+                  href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/ps5_sol.zip">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/ps5_sol.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/ps5_sol.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.final-exam.MIT6_00SCS11_q3_soln.pdf"
+                  type="other"
+                  href="contents/unit-3/final-exam/MIT6_00SCS11_q3_soln.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/final-exam/MIT6_00SCS11_q3_soln.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/final-exam/MIT6_00SCS11_q3_soln.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-13-some-basic-probability-and-plotting-data.lec13.py"
+                  type="other"
+                  href="contents/unit-2/lecture-13-some-basic-probability-and-plotting-data/lec13.py">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-13-some-basic-probability-and-plotting-data/lec13.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-13-some-basic-probability-and-plotting-data/lec13.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-23-dynamic-programming.index.htm"
+                  type="webcontent"
+                  href="contents/unit-3/lecture-23-dynamic-programming/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-23-dynamic-programming/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-23-dynamic-programming/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-4-machine-interpretation-of-a-program.index.htm"
+                  type="webcontent"
+                  href="contents/unit-1/lecture-4-machine-interpretation-of-a-program/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-4-machine-interpretation-of-a-program/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-4-machine-interpretation-of-a-program/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-19-more-optimization-and-clustering.MIT6_00SCS11_lec19.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-19-more-optimization-and-clustering/MIT6_00SCS11_lec19.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-19-more-optimization-and-clustering/MIT6_00SCS11_lec19.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-19-more-optimization-and-clustering/MIT6_00SCS11_lec19.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-21-using-graphs-to-model-problems-part-1.MIT6_00SCS11_lec21_slides.pdf"
+                  type="other"
+                  href="contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/MIT6_00SCS11_lec21_slides.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/MIT6_00SCS11_lec21_slides.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/MIT6_00SCS11_lec21_slides.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.final-exam.index.htm"
+                  type="webcontent"
+                  href="contents/unit-3/final-exam/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-3/final-exam/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/final-exam/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-21-using-graphs-to-model-problems-part-1.MIT6_00SCS11_lec21.pdf"
+                  type="other"
+                  href="contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/MIT6_00SCS11_lec21.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/MIT6_00SCS11_lec21.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/MIT6_00SCS11_lec21.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.software.index.htm"
+                  type="webcontent"
+                  href="contents/software/index.htm">
+            <metadata>
+                <adlcp:location>contents/software/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/software/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-26-what-do-computer-scientists-do.index.htm"
+                  type="webcontent"
+                  href="contents/unit-3/lecture-26-what-do-computer-scientists-do/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-26-what-do-computer-scientists-do/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-26-what-do-computer-scientists-do/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-6-recursion.MIT6_00SCS11_ps2.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-6-recursion/MIT6_00SCS11_ps2.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-6-recursion/MIT6_00SCS11_ps2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-6-recursion/MIT6_00SCS11_ps2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-5-objects-in-python.MIT6_00SCS11_lec05.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-5-objects-in-python/MIT6_00SCS11_lec05.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-5-objects-in-python/MIT6_00SCS11_lec05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-5-objects-in-python/MIT6_00SCS11_lec05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-15-statistical-thinking.lec15.py"
+                  type="other"
+                  href="contents/unit-2/lecture-15-statistical-thinking/lec15.py">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-15-statistical-thinking/lec15.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-15-statistical-thinking/lec15.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.MIT6_00SCS11_ps8.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/MIT6_00SCS11_ps8.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-18-optimization-problems-and-algorithms/MIT6_00SCS11_ps8.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/MIT6_00SCS11_ps8.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-11-oop-and-inheritance.MIT6_00SCS11_lec11.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-11-oop-and-inheritance/MIT6_00SCS11_lec11.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-11-oop-and-inheritance/MIT6_00SCS11_lec11.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-11-oop-and-inheritance/MIT6_00SCS11_lec11.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.lec14.py"
+                  type="other"
+                  href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/lec14.py">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/lec14.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/lec14.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.ps7_sol.zip"
+                  type="other"
+                  href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/ps7_sol.zip">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/ps7_sol.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/ps7_sol.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-8-efficiency-and-order-of-growth.showGrowth.py"
+                  type="other"
+                  href="contents/unit-1/lecture-8-efficiency-and-order-of-growth/showGrowth.py">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-8-efficiency-and-order-of-growth/showGrowth.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-8-efficiency-and-order-of-growth/showGrowth.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.quiz-ii.MIT6_00SCS11_q2.pdf"
+                  type="other"
+                  href="contents/unit-2/quiz-ii/MIT6_00SCS11_q2.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/quiz-ii/MIT6_00SCS11_q2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/quiz-ii/MIT6_00SCS11_q2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.ps5.zip"
+                  type="other"
+                  href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/ps5.zip">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/ps5.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/ps5.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-16-using-randomness-to-solve-non-random-problems.index.htm"
+                  type="webcontent"
+                  href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.index.htm"
+                  type="webcontent"
+                  href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-3.final-exam.MIT6_00SCS11_q3_practice.pdf"
+                  type="other"
+                  href="contents/unit-3/final-exam/MIT6_00SCS11_q3_practice.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/final-exam/MIT6_00SCS11_q3_practice.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/final-exam/MIT6_00SCS11_q3_practice.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-8-efficiency-and-order-of-growth.ses-08.jpg"
+                  type="other"
+                  href="contents/unit-1/lecture-8-efficiency-and-order-of-growth/ses-08.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-8-efficiency-and-order-of-growth/ses-08.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-8-efficiency-and-order-of-growth/ses-08.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.quiz-i.MIT6_00SCS11_q1.pdf"
+                  type="other"
+                  href="contents/unit-1/quiz-i/MIT6_00SCS11_q1.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/quiz-i/MIT6_00SCS11_q1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/quiz-i/MIT6_00SCS11_q1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-20-more-clustering.MIT6_00SCS11_lec20.pdf"
+                  type="other"
+                  href="contents/unit-3/lecture-20-more-clustering/MIT6_00SCS11_lec20.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-20-more-clustering/MIT6_00SCS11_lec20.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-20-more-clustering/MIT6_00SCS11_lec20.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.final-exam.MIT6_00SCS11_q3_topics.pdf"
+                  type="other"
+                  href="contents/unit-3/final-exam/MIT6_00SCS11_q3_topics.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/final-exam/MIT6_00SCS11_q3_topics.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/final-exam/MIT6_00SCS11_q3_topics.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.ses-22.jpg"
+                  type="other"
+                  href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ses-22.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ses-22.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ses-22.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-23-dynamic-programming.ses-23.jpg"
+                  type="other"
+                  href="contents/unit-3/lecture-23-dynamic-programming/ses-23.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-23-dynamic-programming/ses-23.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-23-dynamic-programming/ses-23.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.lec22.py"
+                  type="other"
+                  href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/lec22.py">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/lec22.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/lec22.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-10-hashing-and-classes.lec10.py"
+                  type="other"
+                  href="contents/unit-2/lecture-10-hashing-and-classes/lec10.py">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-10-hashing-and-classes/lec10.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-10-hashing-and-classes/lec10.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-23-dynamic-programming.MIT6_00SCS11_lec23.pdf"
+                  type="other"
+                  href="contents/unit-3/lecture-23-dynamic-programming/MIT6_00SCS11_lec23.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-23-dynamic-programming/MIT6_00SCS11_lec23.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-23-dynamic-programming/MIT6_00SCS11_lec23.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-12-introduction-to-simulation-and-random-walks.MIT6_00SCS11_lec12.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/MIT6_00SCS11_lec12.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/MIT6_00SCS11_lec12.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-12-introduction-to-simulation-and-random-walks/MIT6_00SCS11_lec12.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-9-memory-and-search-methods.ses-09.jpg"
+                  type="other"
+                  href="contents/unit-1/lecture-9-memory-and-search-methods/ses-09.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-9-memory-and-search-methods/ses-09.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-9-memory-and-search-methods/ses-09.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-17-curve-fitting.lec17_data.zip"
+                  type="other"
+                  href="contents/unit-2/lecture-17-curve-fitting/lec17_data.zip">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-17-curve-fitting/lec17_data.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-17-curve-fitting/lec17_data.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-20-more-clustering.ps9_sol.zip"
+                  type="other"
+                  href="contents/unit-3/lecture-20-more-clustering/ps9_sol.zip">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-20-more-clustering/ps9_sol.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-20-more-clustering/ps9_sol.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.quiz-i.MIT6_00SCS11_q1_soln.pdf"
+                  type="other"
+                  href="contents/unit-1/quiz-i/MIT6_00SCS11_q1_soln.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/quiz-i/MIT6_00SCS11_q1_soln.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/quiz-i/MIT6_00SCS11_q1_soln.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.Syllabus.mp_logo.gif"
+                  type="other"
+                  href="contents/Syllabus/mp_logo.gif">
+            <metadata>
+                <adlcp:location>contents/Syllabus/mp_logo.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/Syllabus/mp_logo.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.ps8_sol.zip"
+                  type="other"
+                  href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/ps8_sol.zip">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-18-optimization-problems-and-algorithms/ps8_sol.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/ps8_sol.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-25-queuing-network-models.index.htm"
+                  type="webcontent"
+                  href="contents/unit-3/lecture-25-queuing-network-models/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-25-queuing-network-models/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-25-queuing-network-models/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-20-more-clustering.MIT6_00SCS11_lec20_slides.pdf"
+                  type="other"
+                  href="contents/unit-3/lecture-20-more-clustering/MIT6_00SCS11_lec20_slides.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-20-more-clustering/MIT6_00SCS11_lec20_slides.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-20-more-clustering/MIT6_00SCS11_lec20_slides.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-4-machine-interpretation-of-a-program.ps1_sol.zip"
+                  type="other"
+                  href="contents/unit-1/lecture-4-machine-interpretation-of-a-program/ps1_sol.zip">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-4-machine-interpretation-of-a-program/ps1_sol.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-4-machine-interpretation-of-a-program/ps1_sol.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.quiz-i.MIT6_00SCS11_q1_practice.pdf"
+                  type="other"
+                  href="contents/unit-1/quiz-i/MIT6_00SCS11_q1_practice.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/quiz-i/MIT6_00SCS11_q1_practice.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/quiz-i/MIT6_00SCS11_q1_practice.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.ps6_sol.zip"
+                  type="other"
+                  href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/ps6_sol.zip">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/ps6_sol.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/ps6_sol.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-3-problem-solving.index.htm"
+                  type="webcontent"
+                  href="contents/unit-1/lecture-3-problem-solving/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-3-problem-solving/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-3-problem-solving/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.ses-18.jpg"
+                  type="other"
+                  href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/ses-18.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-18-optimization-problems-and-algorithms/ses-18.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/ses-18.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-21-using-graphs-to-model-problems-part-1.lec21.py"
+                  type="other"
+                  href="contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/lec21.py">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/lec21.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-21-using-graphs-to-model-problems-part-1/lec21.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-13-some-basic-probability-and-plotting-data.ses-13.jpg"
+                  type="other"
+                  href="contents/unit-2/lecture-13-some-basic-probability-and-plotting-data/ses-13.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-13-some-basic-probability-and-plotting-data/ses-13.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-13-some-basic-probability-and-plotting-data/ses-13.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-8-efficiency-and-order-of-growth.lec08.py"
+                  type="other"
+                  href="contents/unit-1/lecture-8-efficiency-and-order-of-growth/lec08.py">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-8-efficiency-and-order-of-growth/lec08.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-8-efficiency-and-order-of-growth/lec08.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-11-oop-and-inheritance.lec11.py"
+                  type="other"
+                  href="contents/unit-2/lecture-11-oop-and-inheritance/lec11.py">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-11-oop-and-inheritance/lec11.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-11-oop-and-inheritance/lec11.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-4-machine-interpretation-of-a-program.lec04.py"
+                  type="other"
+                  href="contents/unit-1/lecture-4-machine-interpretation-of-a-program/lec04.py">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-4-machine-interpretation-of-a-program/lec04.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-4-machine-interpretation-of-a-program/lec04.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-18-optimization-problems-and-algorithms.ps8.zip"
+                  type="other"
+                  href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/ps8.zip">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-18-optimization-problems-and-algorithms/ps8.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-18-optimization-problems-and-algorithms/ps8.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-3-problem-solving.MIT6_00SCS11_lec03.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-3-problem-solving/MIT6_00SCS11_lec03.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-3-problem-solving/MIT6_00SCS11_lec03.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-3-problem-solving/MIT6_00SCS11_lec03.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-8-efficiency-and-order-of-growth.MIT6_00SCS11_rec04.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-8-efficiency-and-order-of-growth/MIT6_00SCS11_rec04.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-8-efficiency-and-order-of-growth/MIT6_00SCS11_rec04.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-8-efficiency-and-order-of-growth/MIT6_00SCS11_rec04.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-5-objects-in-python.index.htm"
+                  type="webcontent"
+                  href="contents/unit-1/lecture-5-objects-in-python/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-5-objects-in-python/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-5-objects-in-python/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-6-recursion.MIT6_00SCS11_lec06.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-6-recursion/MIT6_00SCS11_lec06.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-6-recursion/MIT6_00SCS11_lec06.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-6-recursion/MIT6_00SCS11_lec06.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.index.htm"
+                  type="webcontent"
+                  href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-24-avoiding-statistical-fallacies.MIT6_00SCS11_lec24_slides.pdf"
+                  type="other"
+                  href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/MIT6_00SCS11_lec24_slides.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-24-avoiding-statistical-fallacies/MIT6_00SCS11_lec24_slides.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-24-avoiding-statistical-fallacies/MIT6_00SCS11_lec24_slides.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-17-curve-fitting.MIT6_00SCS11_lec17.pdf"
+                  type="other"
+                  href="contents/unit-2/lecture-17-curve-fitting/MIT6_00SCS11_lec17.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-17-curve-fitting/MIT6_00SCS11_lec17.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-17-curve-fitting/MIT6_00SCS11_lec17.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-7-debugging.MIT6_00SCS11_lec07_slides.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-7-debugging/MIT6_00SCS11_lec07_slides.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-7-debugging/MIT6_00SCS11_lec07_slides.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-7-debugging/MIT6_00SCS11_lec07_slides.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-1.quiz-i.index.htm"
+                  type="webcontent"
+                  href="contents/unit-1/quiz-i/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-1/quiz-i/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/quiz-i/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_contents.unit-1.lecture-1-introduction-to-6.00.MIT6_00SCS11_lec01_slides.pdf"
+                  type="other"
+                  href="contents/unit-1/lecture-1-introduction-to-6.00/MIT6_00SCS11_lec01_slides.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-1/lecture-1-introduction-to-6.00/MIT6_00SCS11_lec01_slides.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-1/lecture-1-introduction-to-6.00/MIT6_00SCS11_lec01_slides.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-2.lecture-14-sampling-and-monte-carlo-simulation.ses-14.jpg"
+                  type="other"
+                  href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/ses-14.jpg">
+            <metadata>
+                <adlcp:location>contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/ses-14.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-2/lecture-14-sampling-and-monte-carlo-simulation/ses-14.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.ps10_sol.zip"
+                  type="other"
+                  href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ps10_sol.zip">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ps10_sol.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ps10_sol.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-3.lecture-22-using-graphs-to-model-problems-part-2.MIT6_00SCS11_ps10.pdf"
+                  type="other"
+                  href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/MIT6_00SCS11_ps10.pdf">
+            <metadata>
+                <adlcp:location>contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/MIT6_00SCS11_ps10.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-3/lecture-22-using-graphs-to-model-problems-part-2/MIT6_00SCS11_ps10.pdf"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.6-00sc-introduction-to-computer-science-and-programming-spring-2011"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

@@ -22,14 +22,13 @@
 ##    if x < 0:
 ##        ans = -ans
 ##    print 'Cube root of ' + str(x) + ' is ' + str(ans)
-
-##x = 2
+##
+##x = 25
 ##epsilon = 0.01
 ##numGuesses = 0
 ##ans = 0.0
 ##while abs(ans**2 - x) >= epsilon and ans <= x:
-##    ans += 0.001
-##    #ans += 0.00001
+##    ans += 0.00001
 ##    numGuesses += 1
 ##print 'numGuesses =', numGuesses
 ##if abs(ans**2 - x) >= epsilon:
@@ -37,42 +36,23 @@
 ##else:
 ##    print ans, 'is close to square root of', x
 ##
-##x = 125
+##x = 12345
 ##epsilon = 0.01
 ##numGuesses = 0
 ##low = 0.0
 ##high = x
 ##ans = (high + low)/2.0
 ##while abs(ans**2 - x) >= epsilon and ans <= x:
-##    print low, high, ans
+##    #print low, high, ans
 ##    numGuesses += 1
 ##    if ans**2 < x:
 ##        low = ans
 ##    else:
 ##        high = ans
 ##    ans = (high + low)/2.0
-##print 'numGuesses =', numGuesses
+###print 'numGuesses =', numGuesses
 ##print ans, 'is close to square root of', x
-##print ans**2
 
-x = float(raw_input('Enter a number: '))
-root = int(raw_input('Enter the base of the root: '))
-epsilon = 0.01
-numGuesses = 0
-low = 0.0
-high = x
-ans = (high + low)/2.0
-while abs(ans**root - x) >= epsilon and ans <= x:
-    print low, high, ans
-    numGuesses += 1
-    if ans**root < x:
-        low = ans
-    else:
-        high = ans
-    ans = (high + low)/2.0
-print 'numGuesses =', numGuesses
-print ans, 'is close to the', root, 'root of', x
-print ans**root
 ##def withinEpsilon(x, y, epsilon):
 ##    """x, y, epsilon all ints or floats
 ##       returns true if x is within epsilon of y"""
