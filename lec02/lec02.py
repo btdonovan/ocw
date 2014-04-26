@@ -55,11 +55,21 @@ ans = 0
 while ans*ans*ans < abs(x):
     ans = ans + 1
     #print 'current guess =', ans
+    #While loop continues to increment the value of ans until ans*ans*ans is equal or greater than abs(x)
+    #Once the value of ans*ans*ans is equal or greater than abs(x) the while loop ends.
 if ans*ans*ans != abs(x):
     print x, 'is not a perfect cube'
-else:
-    if x < 0:
-        ans = -ans
+    #The while loop incremented ans until ans**3 was equal or greater than abs(x).
+    #Now we test to see which condition was the case.  If ans**3 is greater than abs(x) we end the program now.
+    #x is not a perfect cube.
+else: 
+    #Now we get to cases where x is a perfect cube
+    if x < 0: 
+        #Negative numbers can be perfect cubes. Test if x is negative.
+        #if x is negative, make ans negative. Otherwise do nothing.
+        ans = -ans 
+    #At this point, we know x is a perfect cube and we know the value of the cube root.
+    #Print our results.
     print 'Cube root of ' + str(x) + ' is ' + str(ans)
 
 ##
