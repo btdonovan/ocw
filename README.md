@@ -1,4 +1,4 @@
 ocw
 ===
 
-Resting place for Open Course Ware projects.
+This is a place for Open Course Ware projects.
